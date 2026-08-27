@@ -55,10 +55,8 @@ ul {
 
 .navbar {
   height: 72px;
-
   position: fixed;
   z-index: 10;
-
   top: 0;
   left: 0;
   right: 0;
@@ -110,22 +108,19 @@ nav a:hover {
 
 .menu-toggle {
   display: none;
-
   background: none;
   border: 0;
-
   color: var(--text);
   font-size: 24px;
 }
 
 
 /* =========================
-   HERO SECTION
+   HERO
    ========================= */
 
 .hero {
   min-height: 100vh;
-
   max-width: var(--max);
   margin: auto;
 
@@ -147,26 +142,20 @@ nav a:hover {
 .hero-content {
   position: relative;
   z-index: 2;
-
   max-width: 720px;
 }
 
 .eyebrow {
   font-size: 10px;
   letter-spacing: 3px;
-
   color: var(--cyan);
-
   font-weight: 700;
-
   margin-bottom: 16px;
 }
 
 .hero h1 {
   font: 700 clamp(44px, 6vw, 76px) / 1.02 "Space Grotesk";
-
   letter-spacing: -3px;
-
   margin-bottom: 16px;
 }
 
@@ -186,7 +175,6 @@ nav a:hover {
 
 .cursor {
   color: var(--cyan);
-
   animation: blink 0.75s infinite;
 }
 
@@ -198,7 +186,6 @@ nav a:hover {
 
 .hero h2 {
   font-size: 20px;
-
   margin-bottom: 17px;
 }
 
@@ -209,17 +196,13 @@ nav a:hover {
 
 .hero-copy {
   color: var(--muted);
-
   max-width: 650px;
-
   font-size: 15px;
 }
 
 .hero-actions {
   display: flex;
-
   gap: 11px;
-
   margin-top: 28px;
 }
 
@@ -246,13 +229,11 @@ nav a:hover {
   );
 
   color: #fff;
-
   border: none;
 }
 
 .secondary {
   border-color: #4b3c8d;
-
   background: #ffffff05;
 }
 
@@ -265,17 +246,13 @@ nav a:hover {
 
 .socials {
   display: flex;
-
   gap: 20px;
-
   margin-top: 20px;
 }
 
 .socials a {
   font-size: 11px;
-
   color: var(--muted);
-
   font-weight: 600;
 }
 
@@ -293,8 +270,9 @@ nav a:hover {
 
   justify-self: end;
 
-  width: 350px;
-  height: 350px;
+  /* Outer photo size */
+  width: 310px;
+  height: 310px;
 
   display: flex;
 
@@ -303,7 +281,7 @@ nav a:hover {
 
   z-index: 2;
 
-  /* Moves the complete photo down */
+  /* Move complete photo downward */
   transform: translateY(45px);
 }
 
@@ -315,8 +293,8 @@ nav a:hover {
 
   position: absolute;
 
-  width: 330px;
-  height: 330px;
+  width: 290px;
+  height: 290px;
 
   border-radius: 50%;
 
@@ -333,7 +311,7 @@ nav a:hover {
 }
 
 
-/* Gradient photo border */
+/* Gradient circular border */
 
 .photo-ring {
   position: absolute;
@@ -372,13 +350,13 @@ nav a:hover {
 }
 
 
-/* Your actual photo */
+/* Actual profile photo */
 
 .hero-photo {
   position: relative;
 
-  width: 342px;
-  height: 342px;
+  width: 300px;
+  height: 300px;
 
   object-fit: cover;
 
@@ -394,7 +372,9 @@ nav a:hover {
 }
 
 
-/* Background decorative glow */
+/* =========================
+   BACKGROUND GLOW
+   ========================= */
 
 .glow {
   position: absolute;
